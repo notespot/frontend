@@ -8,26 +8,33 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Notespot</title>
-        <link rel='stylesheet' href='front.css'>
-        
+          <link rel='stylesheet' href='front2.css'>
+      
     </head>
     <body>
-        <div class='main'>
-<div id="sign">
+        <div class="main2">
+            <div id="back">
+                
+            </div>
+            <div id="top2">
+                notespot
+            </div>
+            <div id="sign">
     <table>
         <tr><th><a href="#">Sign Up</a></th>
             <th><a href="#">Sign In</a></th>
         </tr>
     </table>
 </div>  
-            <div id='write'>
-            notespot 
-            </div>
-        
-            <div id='search'>
+<div id='search'>
             <input type="text" placeholder="Search Classnotes">            
         </div>
-        <div id="bottom">
+            <a href="#">
+            <div id="symbol">
+                
+            </div>
+            </a> 
+            <div id="bottom">
             <table >
                 <tr> <th style="text-align: right; padding-right: 15px;"><a href="#">About</a></th>
                     <th style="padding-right: 15px;"><a href="#">Terms &AMP; Conditions</a></th>
@@ -36,8 +43,11 @@ and open the template in the editor.
                 </tr>
                </table>
             </div>
-            
-            </div>
+        </div>
+        
+        
+        
+        
         <?php
         // put your code here
         ?>

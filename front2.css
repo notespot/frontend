@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Jan, 2015, 11:47:30 PM
+    Author     : blacker
+*/
+body{
+    margin:0;
+    padding: 0;
+}
+
+#back{
+    background: url("back.jpg");
+    width: 100%;
+    height: 15vh;
+    position: absolute ;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .7;
+ }
+ #top2{
+    font-size: 5vh;
+    font-family:'arial';
+//    width: 100%;
+    border-color: #2d2d2d;
+    text-align: center;
+    color:black;
+    margin-left: 20px;
+    background-color:white;
+    padding-top: 3px;
+    width: 10%;
+    height: 30px;
+    border-radius: 4px;
+   // top:-20;
+   margin-top:  9px;
+    position: absolute;
+    //padding-top: 4px;
+    text-shadow: 0px 0px 25px rgba(0,0,0, 1);
+    //opacity: .85;
+ }
+.main2 #search{
+    margin-left: 12.5%;
+    //margin-right: auto;
+    position: absolute;
+    margin-top: 15px;;
+    width: 62.2%;
+    height: 50px;
+    opacity: .85;
+}
+#search input[type="text"]{
+    width:inherit;
+    height:30px;
+    font-size: 18px;
+    border-top-left-radius:  4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    background-color: #2d2d2d;
+    padding-left:10px;
+    color:#e9e9e9;
+    opacity: 0.9;
+}
+#sign   table th {
+    color: white;
+    width: 100px;
+    border: 10px; 
+    border-radius: 5px;
+    background-color: black;
+    opacity: .75;
+    font-family: 'arial';
+}
+#sign table{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top:10px;
+}
+#sign table tr{
+    margin-top: 10%;
+}
+
+#search:visited{
+    border: none;
+}
+table  a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+#symbol{
+    background:url("search.png");
+    width:45px;
+    height:32px;
+    margin-left: 51.9%;
+    margin-top: 15px;
+    position: absolute;
+    background-color:#e9e9e9;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    opacity: .7;    
+}
+#bottom{
+    width: 100%;
+    height: 32px;
+    background-color: black;
+    //margin-bottom: 0px;
+    //  margin-top: 29.3%;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    opacity: .85;
+    //top:100%;
+}
+#bottom table{
+    //margin-left: 50vh;
+    //padding-top: .vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .3%;
+}
+#bottom table th{
+    border: none;
+    //width:24vh;
+    font-size: 15px;
+    font-family: 'arial';
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
